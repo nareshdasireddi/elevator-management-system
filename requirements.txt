@@ -1,0 +1,20 @@
+# Elevator Management System Requirements
+# - Python program to determine the optimal number and capacity of elevators for a building
+# - Prompts user for:
+#     - Number of floors
+#     - Total number of people during peak hours
+#     - Maximum acceptable waiting time for an elevator
+#     - Floor height (in meters)
+#     - (Optional) Preferred elevator capacity
+# - Validates all user inputs for correctness and positivity
+# - Uses standard elevator planning logic and reasonable assumptions for calculations, including user-provided floor height
+# - Outputs:
+#     - Recommended number of elevators
+#     - Recommended capacity per elevator
+#     - Summary of calculation logic and assumptions
+# - User-friendly command-line interface with clear instructions and error messages
+# - Modular and extensible code structure for future enhancements
+# - Compatible with Python 3.x and major operating systems
+# - Intended for preliminary planning and estimation purposes only
+#
+ 
