@@ -17,4 +17,20 @@
 # - Compatible with Python 3.x and major operating systems
 # - Intended for preliminary planning and estimation purposes only
 #
+# Elevator Scheduling Algorithm Requirements (User-Driven Scheduling)
+# - Prompts the user to enter:
+#     - Their current floor
+#     - The direction they want to go (up or down)
+#     - Their destination floor
+# - Schedules the elevator to pick up the user and take them to their destination
+# - Assigns and displays the most suitable elevator for each request, including elevator number, current floor, and status
+# - Simulates elevator movement and updates status as it reaches the user and their destination
+# - Shows a summary for each request, including the request details and which elevator was assigned
+# - Respects elevator capacity limits
+# - User-friendly CLI for entering requests and viewing results
+# - Validates all user inputs
+# - Modular and extensible for new algorithms and metrics
+# - Compatible with Python 3.x and major operating systems
+# - For simulation and estimation only, not real-time control
+#
  
