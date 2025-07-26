@@ -30,7 +30,7 @@ A unified Python program for elevator planning, estimation, and user-driven sche
 ## Usage
 1. Run the program:
    ```bash
-   python elevator_management_system.py
+   python3 elevator_management_system.py
    ```
 2. Follow the prompts for building details and elevator requests.
 3. After each request, view the elevator assignment and status summary.
