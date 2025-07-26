@@ -14,6 +14,10 @@
 # - Simulates elevator movement and updates status as it reaches the user and their destination
 # - Shows a summary for each request, including the request details and which elevator was assigned
 # - Respects elevator capacity limits
+# - Restricts direction options based on floor position:
+#     - On lowest floor: only 'up' direction allowed
+#     - On highest floor: only 'down' direction allowed
+#     - On intermediate floors: both 'up' and 'down' options available
 # - Outputs:
 #     - Recommended number of elevators
 #     - Recommended capacity per elevator
@@ -23,5 +27,6 @@
 # - Modular and extensible code structure for future enhancements
 # - Compatible with Python 3.x and major operating systems
 # - Intended for preliminary planning, estimation, and user-driven scheduling purposes only
+# - Unified workflow: estimation followed by scheduling using recommended values
 #
  
